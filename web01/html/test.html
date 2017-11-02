@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        function ant() {
+            //var ss = "cn_reader_null_3746487204206403_History";
+            //var rex = /^[a-zA-Z0-9_]+_History$/;
+            var rex=/^cn_reader_null_\d+$/;
+            var ss="cn_reader_null_12312312";
+            if (ss.match(rex)) {
+                alert("ok")
+            }
+        }
+
+        function aa() {
+            var rex=/^cn_reader_null_\d+$/;
+        }
+    </script>
+</head>
+<body>
+<div>
+    <button onclick="ant()">button</button>
+</div>
+</body>
+</html>
